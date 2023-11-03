@@ -51,8 +51,8 @@ header{
 
 .header_bars{
     color: var(--clr-slate600);
-    min-height: 2.5rem;
-    min-width:2.5rem;
+    min-height: 3rem;
+    min-width:3rem;
     display: block;
     margin-right: 1rem;
     margin-left: 1rem;
