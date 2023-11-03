@@ -1,0 +1,124 @@
+.btn{
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--clr-rose);
+    color: #f1f5f9;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 5px 5px 20px var(--clr-rose);
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 30px var(--clr-rose);
+}
+
+.resume_btn{
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--clr-indigo);
+    color: #f1f5f9;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 5px 5px 20px var(--clr-indigo);
+    transition: 0.3s;
+}
+
+.resume_btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 30px var(--clr-indigo);
+}
+
+.coffee_btn{
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    color: #f1f5f9;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    box-shadow: 5px 5px 20px orange;
+    transition: 0.3s;
+}
+
+.coffee_btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 30px orange;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+    /* border: 1px solid red; */
+}
+
+.section{
+    margin-top: 0rem;
+}
+
+.section_bottom{
+    margin-bottom: 1rem;
+}
+
+.empty_space{
+    width: 100%;
+    height: 5rem;
+}
+
+/* xs */
+@media (min-width:475px) {
+    .container{
+        max-width: 475px;
+    }
+    .section{
+        margin-top: 1rem;
+    }
+}
+
+/* sm */
+@media (min-width:640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width:1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    .gap-between{
+        margin-top: 10rem;
+    }
+}
+
+/* xl */
+@media (min-width:1280px) {
+    .container{
+        max-width: 1280px;
+    }
+    .btn{
+        font-size: 1.1rem;
+    }
+}
+
+/* 2xl */
+@media (min-width:1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}

@@ -1,0 +1,31 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    /* border: 1px solid red; */
+}
+
+.contact_title{
+    color: var(--clr-slate400);
+}
+
+.contact_description{
+    color: var(--clr-slate600);
+    font-size: 1.1rem;
+    max-width: 40ch;
+    /* border: 1px solid red; */
+
+}
+
+@media (min-width:1024px) {
+
+    .contact_description{
+        max-width: 50ch;
+        font-size: 1.25rem;
+    }
+}
