@@ -6,8 +6,8 @@
     --clr-slate800: #1e293b;
     --clr-rose: #e11d48;
     --clr-indigo: #4f46e5;
-    --clr-bottom-bar-dark:rgba(2, 6, 23, 0.5);
-    --clr-bottom-bar-light: rgba(241, 245, 249, 0.5);
+    --clr-bottom-bar-dark:rgba(2, 6, 23, 0.75);
+    --clr-bottom-bar-light: rgba(241, 245, 249, 0.75);
 }
 
 *{
@@ -25,8 +25,8 @@ html{
     --clr-slate400: #1e293b;
     --clr-slate600: #1e293b;
     --clr-slate800: #1e293b;
-    --clr-bottom-bar-light:rgba(2, 6, 23, 0.5);
-    --clr-bottom-bar-dark: rgba(241, 245, 249, 0.5);
+    --clr-bottom-bar-light:rgba(2, 6, 23, 0.75);
+    --clr-bottom-bar-dark: rgba(241, 245, 249, 0.75);
 
 }
 
