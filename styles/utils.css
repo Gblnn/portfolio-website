@@ -54,6 +54,11 @@
     margin-bottom: 1rem;
 }
 
+.subheading{
+    color: var(--clr-slate400);
+    font-size: 1.5rem;
+}
+
 .project_list{
     display: flex;
     justify-content: center;
@@ -66,7 +71,7 @@
     border: 1px solid var(--clr-slate800);
     border-radius: 1rem;
     max-width:35ch;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     padding-bottom: 2rem;
     
 }
@@ -116,6 +121,10 @@
 @media (min-width:768px) {
     .container{
         max-width: 768px;
+    }
+
+    .subheading{
+        font-size: 2rem;
     }
 
     .project_list{
