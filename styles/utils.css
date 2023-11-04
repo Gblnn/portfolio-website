@@ -61,7 +61,7 @@
 }
 
 .project_container{
-    background-color: black;
+    background-color: var(--clr-dark);
     padding: 2rem;
     border: 1px solid var(--clr-slate800);
     border-radius: 1rem;
