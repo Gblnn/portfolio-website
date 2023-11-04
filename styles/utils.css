@@ -1,3 +1,4 @@
+/* Red Button */
 .btn{
     font-weight: 600;
     display: inline-block;
@@ -17,7 +18,8 @@
     box-shadow: 5px 5px 30px var(--clr-rose);
 }
 
-.resume_btn{
+/* Blue Button */
+.blue_btn{
     font-weight: 600;
     display: inline-block;
     text-decoration: none;
@@ -32,23 +34,6 @@
 .resume_btn:hover{
     transform: translateY(-3px);
     box-shadow: 5px 5px 30px var(--clr-indigo);
-}
-
-.coffee_btn{
-    font-weight: 600;
-    display: inline-block;
-    text-decoration: none;
-    background-color: orange;
-    color: #f1f5f9;
-    padding: 0.5em 1em;
-    border-radius: 6px;
-    box-shadow: 5px 5px 20px orange;
-    transition: 0.3s;
-}
-
-.coffee_btn:hover{
-    transform: translateY(-3px);
-    box-shadow: 5px 5px 30px orange;
 }
 
 .container{
@@ -67,6 +52,24 @@
 
 .section_bottom{
     margin-bottom: 1rem;
+}
+
+.project_container{
+    background-color: black;
+    padding: 2rem;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    width:40ch;
+    margin-bottom: 2rem;
+}
+
+.project_img{
+    width: 4rem;
+    border-radius: 0.5rem;
+}
+
+.subtitle{
+    color: var(--clr-slate400);
 }
 
 .empty_space{
