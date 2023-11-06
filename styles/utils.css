@@ -71,7 +71,7 @@
     border: 1px solid var(--clr-slate800);
     border-radius: 1rem;
     max-width:35ch;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     padding-bottom: 2rem;
     
 }
@@ -128,7 +128,7 @@
     }
 
     .project_list{
-        max-width: 200ch;
+        max-width: 150ch;
     }
 
     .project_container{
