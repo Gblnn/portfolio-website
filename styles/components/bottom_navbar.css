@@ -12,7 +12,7 @@
     /* border: 1px solid red; */
     border-radius: 1rem 1rem 0 0;
     border: 1px solid rgb(56, 56, 56);
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 20px rgba(10, 10, 10, 0.25);
 }
 
 .bottom_navbar{
