@@ -133,7 +133,7 @@
     flex-wrap: wrap;
     background-color: var(--clr-dark);
     padding: 1rem;
-    border: 1px solid var(--clr-slate600);
+    border: 1px solid var(--clr-slate800);
     border-radius: 1rem;
     max-width:38ch;
     margin-bottom: 1.5rem;
