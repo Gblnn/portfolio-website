@@ -176,7 +176,7 @@
 }
 
 .tstack_item:hover{
-    background-color: rgba(237, 234, 234, 0.25);
+    background-color: rgba(237, 234, 234, 0.1);
 }
 
 .description{
