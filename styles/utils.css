@@ -116,7 +116,10 @@
     margin-bottom: 1.5rem;
 }
 
-
+.tstack_text{
+    font-size: 0.75rem;
+    color:var(--clr-slate400);
+}
 
 .subtitle{
     color: var(--clr-slate400);
@@ -165,7 +168,7 @@
     font-size: .8rem;
     margin: 0.25rem;
     padding: 0.5rem;
-    border: 1px solid var(--clr-slate600);
+    border: 1px solid var(--clr-slate800);
     border-radius: 0.5rem;
     transition: 0.3s;
     user-select: none;
@@ -173,7 +176,7 @@
 }
 
 .tstack_item:hover{
-    background-color: rgba(237, 234, 234, 0.25);
+    background-color: rgba(237, 234, 234, 0.1);
 }
 
 .description{
