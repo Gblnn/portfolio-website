@@ -38,6 +38,11 @@ body{
 
 strong {
     color: var(--clr-indigo);
+    transition: 0.3s;
+    user-select: none;
+}
+strong:hover{
+    color: #6862e1;
 }
 
 a {
@@ -62,5 +67,5 @@ body::-webkit-scrollbar {
   }
    
   body::-webkit-scrollbar-thumb {
-    background-color: var(--clr-rose);
+    background-color: var(--clr-indigo);
   }
