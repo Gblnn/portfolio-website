@@ -123,7 +123,7 @@
 .empty_container{
     background-color: var(--clr-dark);
     padding: 2rem;
-    border: 1px solid var(--clr-slate800);
+    border: 1px solid var(--clr-slate600);
     border-radius: 1rem;
     max-width:35ch;
     margin: 2.5rem;
