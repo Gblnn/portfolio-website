@@ -23,7 +23,7 @@
 
 /* Blue Button */
 .blue_btn{
-    font-weight: 600;
+    font-weight: 500;
     display: inline-block;
     text-decoration: none;
     background-color: var(--clr-indigo);
@@ -35,7 +35,7 @@
 }
 
 .disabled_btn{
-    font-weight: 600;
+    font-weight: 500;
     display: inline-block;
     text-decoration: none;
     background-color: var(--clr-slate600);
@@ -47,7 +47,7 @@
 }
 
 .dark_btn{
-    font-weight: 600;
+    font-weight: 500;
     display: inline-block;
     text-decoration: none;
     background-color: var(--clr-slate800);
