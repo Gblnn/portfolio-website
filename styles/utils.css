@@ -8,7 +8,7 @@
     color: #f1f5f9;
     padding: 0.5em 1em;
     border-radius: 6px;
-    box-shadow: 5px 5px 20px var(--clr-rose);
+    /* box-shadow: 5px 5px 20px var(--clr-rose); */
     /* box-shadow: 5px 5px 20px var(--clr-slate800); */
     transition: 0.3s;
     /* margin-right: 1rem;
@@ -17,7 +17,7 @@
 
 .btn:hover{
     transform: translateY(-3px);
-    box-shadow: 5px 5px 30px var(--clr-rose);
+    box-shadow: 1px 1px 30px var(--clr-rose);
     /* box-shadow: 5px 5px 30px salmon; */
 }
 
