@@ -220,6 +220,10 @@
 
 }
 
+.justify{
+    text-align: justify;
+}
+
 .empty_space{
     width: 100%;
     height: 5rem;
